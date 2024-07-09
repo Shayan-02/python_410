@@ -8,6 +8,12 @@ elif u1 == "scissors" and u2 == "paper":
     print("user1 win")
 elif u1 == "paper" and u2 == "rock":
     print("user1 win")
+elif u1 == "paper" and u2 == "scissors":
+    print("user2 win")
+elif u1 == "scissors" and u2 == "rock":
+    print("user2 win")
+elif u1 == "rock" and u2 == "paper":
+    print("user2 win")
 else:
     print("invalid input")
 
