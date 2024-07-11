@@ -1,3 +1,4 @@
+
 n1 = int(input("enter first number: "))
 n2 = int(input("enter second number: "))
 n3 = int(input("enter thirth number: "))
@@ -22,3 +23,4 @@ elif n2 == n3 > n1:
     print(f"max is {n2} and min is {n1}")
 else:
     print("all are equal")
+
