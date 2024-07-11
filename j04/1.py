@@ -1,6 +1,6 @@
 n1 = int(input("enter first number: "))
-n2 = int(input("enter first number: "))
-n3 = int(input("enter first number: "))
+n2 = int(input("enter second number: "))
+n3 = int(input("enter thirth number: "))
 
 if n1 > n2 and n2 > n3:
     print(f"max is {n1}, mid is {n2} and min is {n3}")
