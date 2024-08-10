@@ -1,4 +1,0 @@
-family = {
-    "father" :
-        
-}

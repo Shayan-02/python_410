@@ -1,2 +1,0 @@
-def sums(a, b):
-    

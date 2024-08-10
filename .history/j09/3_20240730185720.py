@@ -1,2 +1,0 @@
-def mult(x):
-    for 

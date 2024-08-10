@@ -1,2 +1,0 @@
-a = "alireza"
-print(len())
