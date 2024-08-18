@@ -1,7 +1,7 @@
 class BankAccount:
     def __init__(self, owner, balance=0):
         self.owner = owner
-        self.__balance = balance  # متغیر خصوصی با دو زیرخط
+        self.__balance = balance # متغیر خصوصی با داندر
 
     def deposit(self, amount):
         if amount > 0:
@@ -26,6 +26,7 @@ account = BankAccount("Alice", 1000)
 
 # انجام عملیات
 account.deposit(500)
+account.withdraw(300)
 account.withdraw(300)
 print(f"Final balance: {account.get_balance()}")
 
