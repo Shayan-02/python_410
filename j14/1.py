@@ -1,6 +1,6 @@
 class Car:
     def __init__(self, make, model, year):
-        self.make = make  # برند ماشین
+        self.m = make  # برند ماشین
         self.model = model  # مدل ماشین
         self.year = year  # سال تولید ماشین
 
@@ -12,7 +12,7 @@ class Car:
 
 
 class ElectricCar(Car):
-    def __init__(self, make, model, year, battery_size):
+    def __init__(self, make, model, year, battery_size): # تابع سازنده
         super().__init__(make, model, year)
         self.battery_size = battery_size  # اندازه باتری
 
@@ -26,7 +26,6 @@ my_electric_car = ElectricCar("Tesla", "Model S", 2022, 100)
 
 my_electric_car.start_engine()
 my_electric_car.charge_battery()
-
 
 
 my_car = Car("Toyota", "Camry", 2020)
