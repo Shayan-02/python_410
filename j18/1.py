@@ -32,12 +32,17 @@ def load_tasks():
 
 
 def delete_task():
+    """Delete selected task from the list"""
     try:
+        # Get selected task from the listbox
         selected_task = task_list.get(task_list.curselection())
+        # Delete the task from the database
         cursor.execute("DELETE FROM tasks WHERE task = ?", (selected_task,))
         conn.commit()
+        # Reload the tasks from the database
         load_tasks()
     except:
+        # Show a warning if no task is selected
         messagebox.showwarning("Warning", "Please select a task to delete")
 
 
